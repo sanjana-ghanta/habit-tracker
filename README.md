@@ -1,6 +1,6 @@
-# CS5814 HW3 — Relation Classification on NYT29
+# Sanjana Ghanta CS5814 HW2 — Relation Classification on NYT29
 
-## Requirements
+## Needed Requirements
 - Python 3.8+
 - PyTorch
 - Hugging Face Transformers
@@ -13,14 +13,14 @@ Install dependencies:
 Download the NYT29 dataset from Kaggle:
     https://www.kaggle.com/datasets/chandrasekhardcs/nyt29-dataset
 
-Unzip and place the files in a folder called `nyt29/` in the same directory as the notebook.
 The folder should contain: train.sent, train.tup, dev.sent, dev.tup, test.sent, test.tup
+When prompted upload the kaggle zip to the google colab.
 
 ## How to Run
 1. Open the notebook in Google Colab
 2. Set the runtime to GPU (Runtime → Change runtime type → T4 GPU)
 3. Run all cells in order from top to bottom
-4. Training takes approximately 20 minutes for 5 epochs on a T4 GPU
+4. Training takes quite some time for 5 epochs on a T4 GPU
 5. The best model checkpoint is saved automatically as best_model.pt
 
 ## Model
